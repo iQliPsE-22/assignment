@@ -10,6 +10,13 @@
   width: 100%;
   background-color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-style: normal normal 600 24px/26px Cormorant SC;
+}
 p {
   font-family: "Poppins", sans-serif;
 }
@@ -92,8 +99,14 @@ input[type="email"] {
 .card:hover .card-overlay {
   display: flex;
 }
-.read{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.read {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-3 img{
+    width: 28% !important;
+}
+.section-3 p{
+    font-size: smaller;
 }
