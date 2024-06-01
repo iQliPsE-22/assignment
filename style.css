@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.top {
+  height: 100vh;
+}
+.hero {
+  width: 487px;
+  height: 737px;
+}
+.contact {
+  width: 100%;
+  background-color: #fff;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+.contact input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #f1f1f1;
+}
+.contact input[type="text"] {
+  width: 70%;
+}
+.contact input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.overlay {
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  width: 100vh;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.pop-up {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 500px;
+}
+
+.close-btn {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+}
+.services {
+  font-size: 45px;
+}
+.lead {
+  font-size: 16px;
+}
+.card-overlay {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+  background-color: #f44356;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  gap: 10px;
+  padding: 10%;
+  transition: 0.5s;
+}
+.card-overlay h5 {
+  font-style: normal normal 600 24px/26px Cormorant SC;
+}
+.card:hover .card-overlay {
+  display: flex;
+}
+.read{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
